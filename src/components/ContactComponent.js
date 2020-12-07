@@ -29,10 +29,7 @@ handleSubmit(values) {
 
   render(){
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 477c7d1ceace0d10eb30499a5e48150c7e988ea7
     return (
       <div className="container">
         <div className="row">
@@ -83,7 +80,6 @@ handleSubmit(values) {
                                     <Control.text model=".firstname" id="firstname" name="firstname"
                                         placeholder="First Name"
                                         className="form-control"
-<<<<<<< HEAD
                                         validators={{
                                           required, minLength: minLength(3), maxLength: maxLength(15)
                                       }}
@@ -98,10 +94,8 @@ handleSubmit(values) {
                                           maxLength: 'Must be 15 characters or less'
                                       }}
                                    />
-=======
-                                        />
                                       
->>>>>>> 477c7d1ceace0d10eb30499a5e48150c7e988ea7
+
                                 </Col>
                             </Row>
                             <Row className="form-group">
